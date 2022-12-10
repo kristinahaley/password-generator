@@ -6,10 +6,23 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  askPasswordWordLength();
+  askVariousProperties();
+  generatePassword();
+}
 
-  passwordText.value = password;
+// Prompt asking user for their desired password length
+function askPasswordWordLength() {
+  window.prompt("Type the password length (8 - 128 char): ");
+}
+
+// Prompt asking user for other desired properties of their password
+function askVariousProperties() {
+  window.prompt("Other thing");
+}
+
+// Generates and displays password
+function generatePassword() {
 
 }
 
