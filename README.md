@@ -1,2 +1,2 @@
 # Password Generator Starter Code
-![alt text](screenshot.png)
+![alt text](assets/screenshot.png)
